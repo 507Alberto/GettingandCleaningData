@@ -1,0 +1,91 @@
+---
+title: "Getting and Cleaning Data Course - Code Book"
+output: html_document
+---
+
+The `run_analysis.R` script extract the data from the folder "UCI HAR Dataset" and then follows the 5 steps described in the course project instructions.
+
+## Modifications
+
+* **Step 1:** Merges the training and the test sets to create one data set.
+* **Step 2:** Extracts only the measurements on the mean and standard deviation for each measurement.
+* **Step 3:** Uses descriptive activity names to name the activities in the data set.
+* **Step 4:** Appropriately labels the data set with descriptive variable names.
+* **Step 5:** From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Identifiers
+
+* **ID_Subject:** Subject ID.
+* **Activity:** Name of the Activity performed by the subject.
+
+
+## Measurements
+
+Means of the variables are found in the file `tidy Dataset.txt`
+
+* timeBodyAccelerometer-mean()-Y
+* timeBodyAccelerometer-stdev()-X
+* timeBodyAccelerometer-stdev()-Z
+* timeGravityAccelerometer-mean()-Y
+* timeGravityAccelerometer-stdev()-X
+* timeGravityAccelerometer-stdev()-Z
+* timeBodyAccelerometerJerk-mean()-Y
+* timeBodyAccelerometerJerk-stdev()-X
+* timeBodyAccelerometerJerk-stdev()-Z
+* timeBodyGyroscope-mean()-Y
+* timeBodyGyroscope-stdev()-X
+* timeBodyGyroscope-stdev()-Z
+* timeBodyGyroscopeJerk-mean()-Y
+* timeBodyGyroscopeJerk-stdev()-X
+* timeBodyGyroscopeJerk-stdev()-Z
+* timeBodyAccelerometerMagnitude-stdev()
+* timeGravityAccelerometerMagnitude-stdev()
+* timeBodyAccelerometerJerkMagnitude-stdev()
+* timeBodyGyroscopeMagnitude-stdev()
+* timeBodyGyroscopeJerkMagnitude-stdev()
+* frequencyBodyAccelerometer-mean()-Y
+* frequencyBodyAccelerometer-stdev()-X
+* frequencyBodyAccelerometer-stdev()-Z
+* frequencyBodyAccelerometerJerk-mean()-Y
+* frequencyBodyAccelerometerJerk-stdev()-X
+* frequencyBodyAccelerometerJerk-stdev()-Z
+* frequencyBodyGyroscope-mean()-Y
+* frequencyBodyGyroscope-stdev()-X
+* frequencyBodyGyroscope-stdev()-Z
+* frequencyBodyAccelerometerMagnitude-stdev()
+* frequencyBodyAccelerometerJerkMagnitude-stdev()
+* frequencyBodyGyroscopeMagnitude-stdev()
+* frequencyBodyGyroscopeJerkMagnitude-stdev()
+* timeBodyAccelerometer-mean()-X
+* timeBodyAccelerometer-mean()-Z
+* timeBodyAccelerometer-stdev()-Y
+* timeGravityAccelerometer-mean()-X
+* timeGravityAccelerometer-mean()-Z
+* timeGravityAccelerometer-stdev()-Y
+* timeBodyAccelerometerJerk-mean()-X
+* timeBodyAccelerometerJerk-mean()-Z
+* timeBodyAccelerometerJerk-stdev()-Y
+* timeBodyGyroscope-mean()-X
+* timeBodyGyroscope-mean()-Z
+* timeBodyGyroscope-stdev()-Y
+* timeBodyGyroscopeJerk-mean()-X
+* timeBodyGyroscopeJerk-mean()-Z
+* timeBodyGyroscopeJerk-stdev()-Y
+* timeBodyAccelerometerMagnitude-mean()
+* timeGravityAccelerometerMagnitude-mean()
+* timeBodyAccelerometerJerkMagnitude-mean()
+* timeBodyGyroscopeMagnitude-mean()
+* timeBodyGyroscopeJerkMagnitude-mean()
+* frequencyBodyAccelerometer-mean()-X
+* frequencyBodyAccelerometer-mean()-Z
+* frequencyBodyAccelerometer-stdev()-Y
+* frequencyBodyAccelerometerJerk-mean()-X
+* frequencyBodyAccelerometerJerk-mean()-Z
+* frequencyBodyAccelerometerJerk-stdev()-Y
+* frequencyBodyGyroscope-mean()-X
+* frequencyBodyGyroscope-mean()-Z
+* frequencyBodyGyroscope-stdev()-Y
+* frequencyBodyAccelerometerMagnitude-mean()
+* frequencyBodyAccelerometerJerkMagnitude-mean()
+* frequencyBodyGyroscopeMagnitude-mean()
+* frequencyBodyGyroscopeJerkMagnitude-mean()

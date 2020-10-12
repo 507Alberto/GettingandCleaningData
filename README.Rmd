@@ -1,0 +1,18 @@
+---
+title: "Getting and Cleaning Data Course - README"
+output: html_document
+---
+
+## Files
+
+* `CodeBook.Rmd` a code book that describes the modifications made to the raw data. Additionally, contains indentifiers and measurements of the tidy data set.
+* `run_analysis.R` extract raw data and modifies it according to the steps described in the course project requirements.
+* `tidy Dataset.txt` exported data with the means of the tidy data set.
+
+## Projects Requirements
+
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement.
+* Uses descriptive activity names to name the activities in the data set.
+* Appropriately labels the data set with descriptive variable names.
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
